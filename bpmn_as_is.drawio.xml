@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="5TyTkD725nGMC70MITuE">
+    <mxGraphModel dx="1041" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="shape=pool;startSize=20;horizontal=1;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;marginBottom=0;" value="Proceso de Soporte Técnico - AS IS (Manual)" vertex="1">
+          <mxGeometry height="360" width="900" x="250" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="2" style="shape=lane;startSize=30;horizontal=0;" value="Empleado" vertex="1">
+          <mxGeometry height="180" width="900" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="3" style="ellipse;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="Inicio" vertex="1">
+          <mxGeometry height="50" width="50" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="3" style="rounded=1;arcSize=20;" value="Detecta problema&#xa; técnico" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="3" style="rounded=1;arcSize=20;" value="Llama o manda mail&#xa; al área de sistemas" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="3" style="rounded=1;arcSize=20;" value="Espera respuesta&#xa; del técnico" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="3" style="rounded=1;arcSize=20;" value="Recibe confirmación&#xa; del ticket" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="3" style="ellipse;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" value="Fin" vertex="1">
+          <mxGeometry height="50" width="50" x="850" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="15" edge="1" parent="3" source="5" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="3" source="6" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" edge="1" parent="3" source="8" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" edge="1" parent="3" source="9" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="2" style="shape=lane;startSize=30;horizontal=0;" value="Técnico de Soporte" vertex="1">
+          <mxGeometry height="180" width="900" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="4" style="rounded=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Recibe la consulta" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="4" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Puede resolver?" vertex="1">
+          <mxGeometry height="80" width="120" x="480" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="4" style="rounded=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Escala a otro técnico" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="4" style="rounded=1;arcSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Registra ticket&#xa; manualmente" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18" edge="1" parent="4" source="11" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" edge="1" parent="4" source="12" target="14" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" edge="1" parent="4" source="12" target="13" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" edge="1" parent="2" source="7" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" edge="1" parent="2" source="14" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
